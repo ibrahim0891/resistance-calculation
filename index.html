@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <title>resistance calculator</title>
+        <script src="https://cdn.tailwindcss.comjf"></script>
+        <script src="cdn.tailwindcss.com.css"></script>
+        <!-- HTML -->
+
+        <!-- Custom Styles -->
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.cssf"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head> 
+
+    <body class="">
+        <h1>First Band Color:</h1>
+        <select class="dropdown">
+            <option value="black">Black</option>
+            <option value="brown">Brown</option>
+            <option value="red">Red</option>
+            <option value="orange">Orange</option>
+            <option value="yellow">Yellow</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+            <option value="violet">Violate</option>
+            <option value="gray">Gray</option>
+            <option value="white">White</option>
+        </select>
+        
+        <h1>Second Band Color:</h1>
+        <select class="dropdown">
+            <option value="black">Black</option>
+            <option value="brown">Brown</option>
+            <option value="red">Red</option>
+            <option value="orange">Orange</option>
+            <option value="yellow">Yellow</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+            <option value="violet">Violate</option>
+            <option value="gray">Gray</option>
+            <option value="white">White</option>
+        </select>
+
+        <h1>Third Band Color:</h1>
+        <select class="dropdown">
+            <option value="black">Black</option>
+            <option value="brown">Brown</option>
+            <option value="red">Red</option>
+            <option value="orange">Orange</option>
+            <option value="yellow">Yellow</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+            <option value="violet">Violate</option>
+            <option value="gray">Gray</option>
+            <option value="white">White</option>
+        </select>
+
+        <h1>Fourth Band Color</h1>
+        <select class="dropdown">
+            <option value="gold">Golden</option>
+            <option value="silver">Silver</option>
+            <option value="noColor">No color</option>
+        </select>
+
+        <br />
+        <br />
+
+        <button onclick="lazyLoad()">Calculate Resistance</button>
+        
+        <p><b>Resistance is:        </b> <span class="output">00</span></p>
+        <p><b>Highest Resistance is:</b> <span class="output">00</span></p>
+        <p><b>Lowest Resistance is: </b> <span class="output">00</span></p>
+        
+        <div class="resistor">
+            <div class="wire">
+                
+            </div>
+            <div class="band"></div>
+            <div class="band"></div>
+            <div class="band"></div>
+            <div class="band"></div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>

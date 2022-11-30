@@ -1,0 +1,39 @@
+*{
+    font-family: roboto ;
+    /* transition: all 1s linear; */
+}
+:root{
+    --shadow : 0px 10px 20px rgba(0, 0, 0, 0.3);
+    --soft-gray: rgba(0,0,0,0.1);
+}
+h1{ 
+    font-size: 1rem;
+}
+.resistor{
+    margin: auto;
+    margin-top: 3rem;
+    width:250px;
+    aspect-ratio: 16/5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #ddd;
+    position: relative;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    border: 1px solid var(--soft-gray);
+}
+.wire {
+    width:350px;
+    height:0.25rem;
+    background: #555;
+    position: absolute;
+    top: 50%;
+    z-index: -1000;
+    box-shadow: var(--shadow);
+}
+.band{
+    background: #ddd;
+    height: 100%;
+    width: 0.7rem;
+}
