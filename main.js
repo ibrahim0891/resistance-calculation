@@ -52,7 +52,7 @@ const calculatResistance = () => {
 };
 
 function lazyLoad() {
-    setTimeout(calculatResistance, 2200)
+    setTimeout(calculatResistance, 2500)
     output.innerHTML = "<i> Calculating...</i>"
     output2.innerHTML = "<i> Calculating...</i>"
     output3.innerHTML = "<i> Calculating...</i>"
