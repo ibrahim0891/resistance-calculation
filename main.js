@@ -3,7 +3,7 @@ const bands = document.querySelectorAll('.band')
 const output = document.querySelectorAll(".output")[0];
 const output2 = document.querySelectorAll(".output")[1];
 const output3 = document.querySelectorAll(".output")[2];
-var colorArray = [ 
+var colorArray = [
     "black",
     "brown",
     "red",
@@ -57,16 +57,16 @@ function lazyLoad() {
     output2.innerHTML = "<i> Calculating...</i>"
     output3.innerHTML = "<i> Calculating...</i>"
 
+
 }
-
-dropdown.forEach((items)=>{
-    items.addEventListener('change',changeBandColor)
-})
-
-function changeBandColor(){
-    var i = 0
-    bands.forEach((items)=>{
-        items.style.background = document.querySelectorAll('.dropdown')[i].value 
-        i++
+    dropdown.forEach((items) => {
+        items.addEventListener('change', changeBandColor)
     })
-}
+
+    function changeBandColor() {
+        var i = 0
+        bands.forEach((items) => {
+            items.style.background = document.querySelectorAll('.dropdown')[i].value
+            i++
+        })
+    }

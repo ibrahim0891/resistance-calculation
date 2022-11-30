@@ -1,10 +1,15 @@
 *{
     font-family: roboto ;
-    /* transition: all 1s linear; */
+    transition: all 1s linear;
 }
 :root{
     --shadow : 0px 10px 20px rgba(0, 0, 0, 0.3);
     --soft-gray: rgba(0,0,0,0.1);
+}
+body{
+    max-width: 400px;
+    margin: auto;
+    padding: 1rem;
 }
 h1{ 
     font-size: 1rem;
